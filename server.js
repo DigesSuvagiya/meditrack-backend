@@ -10,7 +10,7 @@ const authRoutes = require('./routes/auth'); // Import the auth router
 const app = express();
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:3000', // Your React app's URL
+    origin: 'https://meditrack-u7lg.onrender.com', // Your React app's URL
     credentials: true
 }));
 
